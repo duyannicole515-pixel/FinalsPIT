@@ -125,49 +125,49 @@ def winnerchecker():
         disable_other_buttons()
 
     elif b1["text"]=="O" and b2["text"]=="O" and b3["text"]=="O":
-        b1.config(bg="green"); b2.config(bg="green"); b3.config(bg="green")
+        b1.config(bg="blue"); b2.config(bg="blue"); b3.config(bg="blue")
         winner = True
         messagebox.showinfo("Tic Tac Toe", f"Congrats {p2}, you win!!")
         save_to_file(f"{p2} Wins!!!!")
         disable_other_buttons()
     elif b4["text"]=="O" and b5["text"]=="O" and b6["text"]=="O":
-        b4.config(bg="green"); b5.config(bg="green"); b6.config(bg="green")
+        b4.config(bg="blue"); b5.config(bg="blue"); b6.config(bg="blue")
         winner = True
         messagebox.showinfo("Tic Tac Toe", f"Congrats {p2}, you win!!")
         save_to_file(f"{p2} Wins!!!!")
         disable_other_buttons()
     elif b7["text"]=="O" and b8["text"]=="O" and b9["text"]=="O":
-        b7.config(bg="green"); b8.config(bg="green"); b9.config(bg="green")
+        b7.config(bg="blue"); b8.config(bg="blue"); b9.config(bg="blue")
         winner = True
         messagebox.showinfo("Tic Tac Toe", f"Congrats {p2}, you win!!")
         save_to_file(f"{p2} Wins!!!!")
         disable_other_buttons()
     elif b1["text"]=="O" and b4["text"]=="O" and b7["text"]=="O":
-        b1.config(bg="green"); b4.config(bg="green"); b7.config(bg="green")
+        b1.config(bg="blue"); b4.config(bg="blue"); b7.config(bg="blue")
         winner = True
         messagebox.showinfo("Tic Tac Toe", f"Congrats {p2}, you win!!")
         save_to_file(f"{p2} Wins!!!!")
         disable_other_buttons()
     elif b2["text"]=="O" and b5["text"]=="O" and b8["text"]=="O":
-        b2.config(bg="green"); b5.config(bg="green"); b8.config(bg="green")
+        b2.config(bg="blue"); b5.config(bg="blue"); b8.config(bg="blue")
         winner = True
         messagebox.showinfo("Tic Tac Toe", f"Congrats {p2}, you win!!")
         save_to_file(f"{p2} Wins!!!!")
         disable_other_buttons()
     elif b3["text"]=="O" and b6["text"]=="O" and b9["text"]=="O":
-        b3.config(bg="green"); b6.config(bg="green"); b9.config(bg="green")
+        b3.config(bg="blue"); b6.config(bg="blue"); b9.config(bg="blue")
         winner = True
         messagebox.showinfo("Tic Tac Toe", f"Congrats {p2}, you win!!")
         save_to_file(f"{p2} Wins!!!!")
         disable_other_buttons()
     elif b1["text"]=="O" and b5["text"]=="O" and b9["text"]=="O":
-        b1.config(bg="green"); b5.config(bg="green"); b9.config(bg="green")
+        b1.config(bg="blue"); b5.config(bg="blue"); b9.config(bg="")
         winner = True
         messagebox.showinfo("Tic Tac Toe", f"Congrats {p2}, you win!!")
         save_to_file(f"{p2} Wins!!!!")
         disable_other_buttons()
     elif b3["text"]=="O" and b5["text"]=="O" and b7["text"]=="O":
-        b3.config(bg="green"); b5.config(bg="green"); b7.config(bg="green")
+        b3.config(bg="green"); b5.config(bg="blue"); b7.config(bg="blue")
         winner = True
         messagebox.showinfo("Tic Tac Toe", f"Congrats {p2}, you win!!")
         save_to_file(f"{p2} Wins!!!!")
